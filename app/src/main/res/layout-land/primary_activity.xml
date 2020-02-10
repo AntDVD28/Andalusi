@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".primary_activity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"></include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="154dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvAlgunosDatos"
+            android:layout_width="351dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/algunos_datos"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="92dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/edad"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlgunosDatos" />
+
+        <EditText
+            android:id="@+id/etEdad"
+            android:layout_width="178dp"
+            android:layout_height="40dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/tvEdad"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlgunosDatos" />
+
+        <TextView
+            android:id="@+id/tvGenero"
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="92dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/genero"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/tvEdad" />
+
+        <Spinner
+            android:id="@+id/spGenero"
+            android:layout_width="178dp"
+            android:layout_height="40dp"
+            android:entries="@array/combo_generos"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/tvGenero"
+            app:layout_constraintTop_toBottomOf="@+id/etEdad" />
+
+        <TextView
+            android:id="@+id/tvProvincia"
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="92dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/provincia"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/tvGenero" />
+
+        <Spinner
+            android:id="@+id/spProvincia"
+            android:layout_width="178dp"
+            android:layout_height="40dp"
+            android:entries="@array/combo_provincias"
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/tvProvincia"
+            app:layout_constraintTop_toBottomOf="@+id/spGenero" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="550dp"
+            android:layout_height="68dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvProvincia">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTextoLegal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:text="@string/texto_legal" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btContinuar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

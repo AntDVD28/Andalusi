@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combo_generos">
+        <item>@string/sp_seleccionar</item>
+        <item>@string/sp_hombre</item>
+        <item>@string/sp_mujer</item>
+        <item>@string/sp_otro</item>
+    </string-array>
+
+    <string-array name="combo_provincias">
+        <item>@string/sp_seleccionar</item>
+        <item>Almería</item>
+        <item>Granada</item>
+        <item>Jaén</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"><b>Andalusí</b></string>
+
+    <!--Opciones menú-->
+    <string name="opcion_acerca">About...</string>
+    <string name="opcion_salir">Exit</string>
+
+    <!--Pantalla de bienvenida-->
+    <string name="bienvenida">Help us improve our products and services</string>
+    <string name="btEmpezar">Start</string>
+
+    <!--Pantalla de información-->
+    <string name="titulo_acerca"><b>About ...</b></string>
+    <string name="autor">Autor: David Jiménez Riscardo</string>
+    <string name="anio">Year: 2020</string>
+    <string name="version">version: 1.0</string>
+
+    <!--Pantalla de ayuda-->
+    <string name="titulo_ayuda"><b>Help</b></string>
+    <string name="ayuda">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="btVolver">Back</string>
+
+    <!--Pantalla de datos-->
+    <string name="algunos_datos">Personal Information</string>
+    <string name="edad">Age</string>
+    <string name="genero">Gender</string>
+    <string name="provincia">Province</string>
+    <string name="texto_legal"><b>Legal Text: The preparation of this test is anonymous. This information will only be used for statistical purposes and at no time will it be associated with any data with which you can relate.</b></string>
+    <string name="btContinuar">Continue</string>
+
+    <!--Radiobuttons-->
+    <string name="pregunta1">1. How long have you used the products / services of Aguadulce\'s Diary ?</string>
+    <string name="opcion11">a.  Less than a month</string>
+    <string name="opcion12">b.	Between six months and one year</string>
+    <string name="opcion13">c.	Between one and three years</string>
+    <string name="opcion14">d.	More than three years</string>
+    <string name="boton1">Next</string>
+
+    <string name="pregunta2">2.	How did you know about Aguadulce\'s Diary website?</string>
+    <string name="opcion21">a.	Radio</string>
+    <string name="opcion22">b.	Internet</string>
+    <string name="opcion23">c.  Our press and magazine products</string>
+    <string name="opcion24">d.  Friends, colleagues or contacts</string>
+    <string name="boton2">Next</string>
+
+    <string name="pregunta3">3. Will you go back to the Aguadulce\'s website again?</string>
+    <string name="opcion31">a.	Sure yes</string>
+    <string name="opcion32">b.	Probably yes</string>
+    <string name="opcion33">c.  Probably no</string>
+    <string name="opcion34">d.  Sure no</string>
+    <string name="boton3">Next</string>
+
+    <string name="pregunta4">4. Which device do you usually consult our electronic services?(Multiple option)</string>
+    <string name="opcion41">a.	Smartphone</string>
+    <string name="opcion42">b.	Tablet</string>
+    <string name="opcion43">c.	Personal computer</string>
+    <string name="opcion44">d.	Others</string>
+    <string name="boton4">Next</string>
+
+    <string name="pregunta5">5. Would you like to hire a premium digital subscription?</string>
+    <string name="opcion51">a.	No, I would not</string>
+    <string name="opcion52">b.	Yes, I like to paid between 5 and 10 euros per month</string>
+    <string name="opcion53">c.	Yes, I will paid more than 10 euros per month</string>
+    <string name="opcion54">d.	I am not sure</string>
+    <string name="boton5">Next</string>
+
+    <string name="pregunta6">6. What do you think of our subscription service in paper format?</string>
+    <string name="opcion61">a.	I don\'t use it, it is an obsolete medium that is doomed to disappear</string>
+    <string name="opcion62">b.	I don\'t use it, but several people close to me still use this format</string>
+    <string name="opcion63">c.	I use it on specific occasions</string>
+    <string name="opcion64">d.	I use it daily and it seems much better than the electronic format</string>
+    <string name="boton6">Next</string>
+
+    <string name="pregunta7">7. Please, indicate your overall satisfaction with Aguadulce\'s Diary website</string>
+    <string name="opcion71">a.	Bad</string>
+    <string name="opcion72">b.	Regular</string>
+    <string name="opcion73">c.	Good</string>
+    <string name="opcion74">d.	Very good</string>
+    <string name="boton7">Next</string>
+
+    <string name="pregunta8">8. Would you recommend the services of Aguadulce\'s Diary to your family or friends?</string>
+    <string name="opcion81">a.	Sure yes</string>
+    <string name="opcion82">b.	Probably yes</string>
+    <string name="opcion83">c.	Probably no</string>
+    <string name="opcion84">d.	Sure no</string>
+    <string name="boton8">End</string>
+
+    <!--Pantalla de confirmación-->
+    <string name="texto_genero">Gender:</string>
+    <string name="texto_provincia">Province:</string>
+    <string name="texto_edad">Age:</string>
+    <string name="texto_cuestion1">Question 1:</string>
+    <string name="texto_cuestion2">Question 2:</string>
+    <string name="texto_cuestion3">Question 3:</string>
+    <string name="texto_cuestion4">Question 4:</string>
+    <string name="texto_cuestion5">Question 5:</string>
+    <string name="texto_cuestion6">Question 6:</string>
+    <string name="texto_cuestion7">Question 7:</string>
+    <string name="texto_cuestion8">Question 8:</string>
+    <string name="btEnviar">Send result</string>
+    <string name="btVolverTest">Go back to the test</string>
+    <string name="datosEnviados">Data sent correctly. Thanks!!</string>
+
+    <!--Spinners-->
+    <string name="sp_seleccionar">- To select -</string>
+    <string name="sp_hombre">Man</string>
+    <string name="sp_mujer">Woman</string>
+    <string name="sp_otro">Other</string>
+
+
+    <!--Errores-->
+    <string name="no_edad">You must indicate your age</string>
+    <string name="muy_joven">You are too young to use our services</string>
+    <string name="muy_viejo">Possibly you were wrong. The longest person reached 146 years. D.E.P</string>
+    <string name="no_genero">You must select a gender</string>
+    <string name="no_provincia">You must select a province</string>
+    <string name="no_opcion">You must select an option</string>
+    <string name="no_checked">You must select at least one option</string>
+    <string name="datosNoEnviados">Shipping error</string>
+
+</resources>

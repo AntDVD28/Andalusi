@@ -1,0 +1,121 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name"><b>Andalusí</b></string>
+
+    <!--Opciones menú-->
+    <string name="opcion_acerca">Acerca de...</string>
+    <string name="opcion_salir">Salir</string>
+
+    <!--Pantalla de bienvenida-->
+    <string name="bienvenida">Ayúdanos a mejorar nuestros productos y servicios.</string>
+    <string name="btEmpezar">Empezar</string>
+
+    <!--Pantalla de información-->
+    <string name="titulo_acerca"><b>Acerca de ...</b></string>
+    <string name="autor">Autor: David Jiménez Riscardo</string>
+    <string name="anio">Año: 2020</string>
+    <string name="version">versión: 1.0</string>
+
+    <!--Pantalla de ayuda-->
+    <string name="titulo_ayuda"><b>Ayuda</b></string>
+    <string name="ayuda">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="btVolver">Volver</string>
+
+    <!--Pantalla de datos-->
+    <string name="algunos_datos">Algunos datos sobre ti</string>
+    <string name="edad">Edad</string>
+    <string name="genero">Género</string>
+    <string name="provincia">Provincia</string>
+    <string name="texto_legal"><b>Texto Legal: La elaboración de este test es anónima. Esta información solo se utilizará con fines estadísticos y en ningún momento se asociará a ningún dato con el que se te pueda relacionar.</b></string>
+    <string name="btContinuar">Continuar</string>
+
+    <!--Radiobuttons-->
+    <string name="pregunta1">1.	¿Cuánto tiempo lleva utilizado los productos/servicios de Diario de Aguadulce?</string>
+    <string name="opcion11">a.  Menos de un mes</string>
+    <string name="opcion12">b.	Entre seis meses y un año</string>
+    <string name="opcion13">c.	Entre uno y tres años</string>
+    <string name="opcion14">d.	Más de tres años</string>
+    <string name="boton1">Siguiente</string>
+
+    <string name="pregunta2">2.	¿Cómo conoció la página web de Diario de Aguadulce?</string>
+    <string name="opcion21">a.	Radio</string>
+    <string name="opcion22">b.	Internet</string>
+    <string name="opcion23">c.	Nuestros productos de prensa y revistas</string>
+    <string name="opcion24">d.	Amigos, colegas o contactos</string>
+    <string name="boton2">Siguiente</string>
+
+    <string name="pregunta3">3. ¿Volverá a entrar en la página web de Diario de Aguadulce de nuevo?</string>
+    <string name="opcion31">a.  Seguro que sí</string>
+    <string name="opcion32">b.  Probablemente sí</string>
+    <string name="opcion33">c.	Probablemente no</string>
+    <string name="opcion34">d.	Seguro que no</string>
+    <string name="boton3">Siguiente</string>
+
+    <string name="pregunta4">4. ¿Desde qué dispositivo suele consultar nuestros servicios electrónicos?(Opción multiple)</string>
+    <string name="opcion41">a.	Smartphone</string>
+    <string name="opcion42">b.	Tablet</string>
+    <string name="opcion43">c.	Ordenador personal</string>
+    <string name="opcion44">d.	Otros</string>
+    <string name="boton4">Siguiente</string>
+
+    <string name="pregunta5">5.	¿Estaría dispuesto a contratar una subscripción digital premium?</string>
+    <string name="opcion51">a.	No, no estoy dispuesto a pagar</string>
+    <string name="opcion52">b.	Si, estaría dispuesto a pagar entre 5 y 10 euros mensuales</string>
+    <string name="opcion53">c.	Si, estaría dispuesto a pagar más de 10 euros mensuales</string>
+    <string name="opcion54">d.	No estoy seguro</string>
+    <string name="boton5">Siguiente</string>
+
+    <string name="pregunta6">6.	¿Qué opina de nuestro servicio de subscripción en formato papel?</string>
+    <string name="opcion61">a.	No lo utilizo, es un medio obsoleto que está condenado a desaparecer</string>
+    <string name="opcion62">b.	No lo utilizo, pero varias personas cercanas a mi siguen utilizando este formato</string>
+    <string name="opcion63">c.	Lo utilizo en ocasiones puntuales</string>
+    <string name="opcion64">d.	Lo utilizo a diario y me parece mucho mejor que el formato electrónico</string>
+    <string name="boton6">Siguiente</string>
+
+    <string name="pregunta7">7.	Por favor, indíquenos su grado de satisfacción general con la página web de Diario de Aguadulce</string>
+    <string name="opcion71">a.	Mala</string>
+    <string name="opcion72">b.	Regular</string>
+    <string name="opcion73">c.	Buena</string>
+    <string name="opcion74">d.	Muy buena</string>
+    <string name="boton7">Siguiente</string>
+
+    <string name="pregunta8">8.	¿Recomendaría los servicios de Diario de Aguadulce a sus familiares o amigos?</string>
+    <string name="opcion81">a.	Seguro que sí</string>
+    <string name="opcion82">b.	Probablemente sí</string>
+    <string name="opcion83">c.	Probablemente no</string>
+    <string name="opcion84">d.	Seguro que no</string>
+    <string name="boton8">Finalizar</string>
+
+    <!--Pantalla de confirmación-->
+    <string name="texto_genero">Género:</string>
+    <string name="texto_provincia">Provincia:</string>
+    <string name="texto_edad">Edad:</string>
+    <string name="texto_cuestion1">Cuestión 1:</string>
+    <string name="texto_cuestion2">Cuestión 2:</string>
+    <string name="texto_cuestion3">Cuestión 3:</string>
+    <string name="texto_cuestion4">Cuestión 4:</string>
+    <string name="texto_cuestion5">Cuestión 5:</string>
+    <string name="texto_cuestion6">Cuestión 6:</string>
+    <string name="texto_cuestion7">Cuestión 7:</string>
+    <string name="texto_cuestion8">Cuestión 8:</string>
+    <string name="btEnviar">Enviar resultado</string>
+    <string name="btVolverTest">Volver al test</string>
+    <string name="datosEnviados">Datos enviados correctamente. Gracias!!</string>
+
+    <!--Spinners-->
+    <string name="sp_seleccionar">- Seleccionar -</string>
+    <string name="sp_hombre">Hombre</string>
+    <string name="sp_mujer">Mujer</string>
+    <string name="sp_otro">Otro</string>
+
+
+    <!--Errores-->
+    <string name="no_edad">Debe de indicar su edad</string>
+    <string name="muy_joven">Es demasiado joven para utilizar nuestros servicios</string>
+    <string name="muy_viejo">Posiblemente se haya equivocado. La persona más longeva alcanzó los 146 años. D.E.P</string>
+    <string name="no_genero">Debe de seleccionar un género</string>
+    <string name="no_provincia">Debe de seleccionar una provincia</string>
+    <string name="no_opcion">Debe de seleccionar una opción</string>
+    <string name="no_checked">Debe de seleccionar al menos una opción</string>
+    <string name="datosNoEnviados">Ha ocurrido un error en el envío</string>
+
+</resources>

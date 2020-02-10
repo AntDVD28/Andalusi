@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".second_activity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"></include>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/logo" />
+
+    <!--Primer layout-->
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta1" />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion11" />
+
+            <RadioButton
+                android:id="@+id/rb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion12" />
+
+            <RadioButton
+                android:id="@+id/rb13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion13" />
+
+            <RadioButton
+                android:id="@+id/rb14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion14" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton1" />
+
+        <ProgressBar
+            android:id="@+id/pb1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Segundo layout-->
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta2" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion21" />
+
+            <RadioButton
+                android:id="@+id/rb22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion22" />
+
+            <RadioButton
+                android:id="@+id/rb23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion23" />
+
+            <RadioButton
+                android:id="@+id/rb24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion24" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton2" />
+
+        <ProgressBar
+            android:id="@+id/pb2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Tercer layout-->
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta3" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion31" />
+
+            <RadioButton
+                android:id="@+id/rb32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion32" />
+
+            <RadioButton
+                android:id="@+id/rb33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion33" />
+
+            <RadioButton
+                android:id="@+id/rb34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion34" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton3" />
+
+        <ProgressBar
+            android:id="@+id/pb3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Cuarto layout-->
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta4" />
+
+
+        <CheckBox
+            android:id="@+id/cb41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opcion41" />
+
+        <CheckBox
+            android:id="@+id/cb42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opcion42" />
+
+        <CheckBox
+            android:id="@+id/cb43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opcion43" />
+
+        <CheckBox
+            android:id="@+id/cb44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opcion44" />
+
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton4" />
+
+        <ProgressBar
+            android:id="@+id/pb4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Quinto layout-->
+
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta5" />
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion51" />
+
+            <RadioButton
+                android:id="@+id/rb52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion52" />
+
+            <RadioButton
+                android:id="@+id/rb53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion53" />
+
+            <RadioButton
+                android:id="@+id/rb54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion54" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton5" />
+
+        <ProgressBar
+            android:id="@+id/pb5"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Sexto layout-->
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta6" />
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion61" />
+
+            <RadioButton
+                android:id="@+id/rb62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion62" />
+
+            <RadioButton
+                android:id="@+id/rb63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion63" />
+
+            <RadioButton
+                android:id="@+id/rb64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion64" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton6" />
+
+        <ProgressBar
+            android:id="@+id/pb6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Septimo layout-->
+
+    <LinearLayout
+        android:id="@+id/ll7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta7" />
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion71" />
+
+            <RadioButton
+                android:id="@+id/rb72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion72" />
+
+            <RadioButton
+                android:id="@+id/rb73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion73" />
+
+            <RadioButton
+                android:id="@+id/rb74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion74" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton7" />
+
+        <ProgressBar
+            android:id="@+id/pb7"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <!--Octavo layout-->
+
+    <LinearLayout
+        android:id="@+id/ll8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="140dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/pregunta8" />
+
+        <RadioGroup
+            android:id="@+id/rg8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/rb81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion81" />
+
+            <RadioButton
+                android:id="@+id/rb82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion82" />
+
+            <RadioButton
+                android:id="@+id/rb83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion83" />
+
+            <RadioButton
+                android:id="@+id/rb84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion84" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton8" />
+
+        <ProgressBar
+            android:id="@+id/pb8"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
