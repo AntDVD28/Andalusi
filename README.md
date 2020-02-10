@@ -1,4 +1,4 @@
-# Andalusi
+# Andalusí
 Mi primera app en Android Studio
 
 Trabajo correspondiente a la asignatura PMDM (Programación Multimedia y Dispositivos Móviles) perteneciente a la titulación de Técnico Superior en el Desarrollos de aplicaciones multiplataformas.
